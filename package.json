@@ -1,11 +1,8 @@
 {
   "name": "pizza-order",
   "version": "0.1.0",
-  "homepage": "https://muricapham.github.io/pizza-order",
   "private": true,
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -21,8 +18,5 @@
     "react-dom": "18.2.0",
     "react-redux": "^8.0.5",
     "redux": "^4.2.1"
-  },
-  "devDependencies": {
-    "gh-pages": "^5.0.0"
   }
 }
